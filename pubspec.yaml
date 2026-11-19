@@ -1,0 +1,61 @@
+name: ileco_pay
+description: "ILECO PAY - A Mobile Electric Bill Inquiry and Payment System"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # HTTP for production API calls
+  http: ^1.6.0
+
+  # Remember-me session storage
+  shared_preferences: ^2.2.3
+
+  # Firebase foundation and push notifications
+  firebase_core: ^4.12.1
+  firebase_messaging: ^16.4.3
+
+  # Local notifications for foreground FCM messages
+  flutter_local_notifications: ^17.2.2
+
+  # Scheduling/timezone support
+  timezone: ^0.9.4
+
+  # App typography
+  google_fonts: ^6.2.1
+
+  # Usage and billing charts
+  fl_chart: ^0.66.2
+
+  # PayMongo hosted checkout / external links
+  url_launcher: ^6.3.2
+
+  # Bill PDF generation and printing
+  pdf: ^3.13.1
+  printing: ^5.15.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/kuryentepay_splash.png
+    - assets/images/app_icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/app_icon.png"

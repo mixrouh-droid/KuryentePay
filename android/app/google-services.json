@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "477056505263",
+    "project_id": "ilecopay-72683",
+    "storage_bucket": "ilecopay-72683.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477056505263:android:e64f749472fad260d44b5a",
+        "android_client_info": {
+          "package_name": "com.ileco.ileco_pay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPULVskc3vBd0kcv3bb0vMK9YKYk86YaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

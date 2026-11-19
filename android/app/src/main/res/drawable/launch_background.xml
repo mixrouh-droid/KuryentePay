@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KuryentePay startup art. This file changes presentation only. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#031125" />
+        </shape>
+    </item>
+    <item android:width="260dp" android:height="260dp" android:gravity="center">
+        <bitmap android:src="@drawable/kuryentepay_splash_art" android:gravity="fill" />
+    </item>
+</layer-list>
